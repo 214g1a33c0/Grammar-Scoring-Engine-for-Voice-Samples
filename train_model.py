@@ -16,7 +16,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 # Define paths
-BASE_DIR = '/home/ubuntu/grammar_scoring'
+BASE_DIR = '/grammar_scoring'
 FEATURES_DIR = os.path.join(BASE_DIR, 'features')
 MODELS_DIR = os.path.join(BASE_DIR, 'models')
 
